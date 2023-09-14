@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+}
+
+
+
+.wrapper{
+    
+    border: 1px solid slategray;
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hinhanh_sanpham{
+    float: left;
+    width: 40%;
+}
+
+.chitiet_sanpham{
+    float: left;
+    width: 50%;
+    /* margin: ; */
+}
+
+.themgiohang{
+    border: none;
+    padding: 15px;
+    background-color: crimson;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.themgiohang:hover{
+   cursor: pointer;
+   color: burlywood;
+   transition: all ease-in .3s;
+}
+
+.logoThongtin{
+    position: fixed;
+    top: -25px;
+    left: 34px;
+    right: 32px;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.header{
+    /* background-image: url("../images/huawei.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 228px;
+    border: 1px solid #ff80ff;
+    height: 230px;
+    width: 100%;
+    
+    margin-top: 170px;
+    
+}
+
+.menu{
+    border: 1px solid saddlebrown;
+    height: 55px;
+    width: 95%;
+    position: fixed;
+    top: 75px;
+    z-index: 5;
+    background-color: rgb(31, 163, 86);
+    
+}
+
+.menu .list_menu{
+    margin: 16px 0 0 57px;
+    padding: 0;
+    list-style: none;
+    width: 60%;
+    line-height: 27px;
+    
+}
+
+.list_menu li{
+    float: left;
+    margin: -14px 3px 0px -7px;
+    padding: 12px;
+    
+}
+
+.list_menu li:hover{
+    transition: all .1s linear;
+    background-color: darkgreen;
+
+}
+
+.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #c2ce24;
+    font-size: 18px;
+}
+
+/* .list_menu li:hover{
+    background-color: blue;
+
+} */
+
+.thongtinchucnang{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin: -115px 65px 5px 0;
+    padding: 0px;
+}
+
+.thongtinchucnang li{
+    padding:30px;
+    margin-right: 15px;
+}
+
+.thongtinchucnang li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.thongtinchucnang img{
+    width: 50px;
+    height: 38px;
+    margin-top: 17px;
+}
+
+.logoBrand img{
+    margin: 0px 42px 20px;
+    width: 100px;
+    height: 103px;
+}
+
+.logoBrand img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#main{
+    border: 1px solid olivedrab;
+    height: auto;
+    width: 100%;
+    
+}
+
+.sidebar{
+    /* border: 1px solid #ff80ff; */
+    height: 300px;
+    width: 16%;
+    margin-top: 5px;
+    margin-left: -1px;
+    float: left;
+    background-color: #1FA356;
+}
+
+.sidebar .list_sidebar{
+ 
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    line-height: 27px;
+}
+
+.list_sidebar li{
+    margin: 7px;
+    padding: 5px;
+}
+
+.list_sidebar li:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: #c2ce24;
+    display: block;
+}
+
+
+
+.fa .fa-style{
+    font-size: 20px;
+    
+    color: darkorchid;
+}
+
+
+
+
+.maincontent {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+
+.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 104%;
+}
+
+.product_list li {
+    width: 22%;
+    border: 1px solid dimgrey;
+    margin: 5px;
+    float: left;
+    height: 326px;
+}
+
+.product_list li a{
+    text-decoration: none;
+}
+
+.product_list li img {
+    height: 200px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.product_list li img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.product_list .title_product{
+    font-size: 15px;
+    text-align: center;
+}
+
+.product_list .price_product{
+    color: red;
+    font-size: large;
+    text-align: center;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    border: 1px solid slategray;
+    height: 150px;
+    width: 100%;
+}
+
+.footer .footer_copyright{
+    text-align: center;
+    color: #000;
+    
+}
+
+footer{
+    background: rgb(31, 163, 86);
+    padding:20px 15px;
+    color: #666666;
+    border-top: 1px solid #303030;
+}
+
+footer .row1{
+    display: flex;
+    
+}
+
+footer .footer__item{
+    width: 25%;
+    margin: 0 15px;
+}
+
+footer .footer__item .col{
+    color: #666666;
+}
+
+.footer__item .col h4{
+    margin: 10px 0;
+    padding: 0 0 12px 0;
+    font-size: 24px;
+    font-weight: 300;
+    color: ghostwhite;
+}
+
+.footer__item .col ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__item .col ul li{
+    color: ghostwhite;
+}
+
+.footer__item .col a{
+    color: #c2ce24;
+    text-decoration: none;
+    text-shadow: none;
+    transition: all 0.2s linear;
+}
+
+.footer__item .col p{
+    font-size: 14px;
+    color: ghostwhite;
+    margin: 0 0 1em !important;
+}
+
+.footer__item .col .form-inline{
+   
+}
+
+.footer__item .col .input-group{
+
+}
+
+.footer__item .input-group .form-control{
+    padding:  10px;
+    background: #F5F2ED;
+}
+
+.footer__item .input-group .input-group-btn{
+    position: relative;
+    white-space: nowrap;
+    
+}
+
+.footer__item .input-group-btn>.btn{
+    position: relative;
+}
+
+.footer__item .input-group-btn .btn{
+    font-weight: 200;
+    color: #fff;
+    background: darkgoldenrod;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer__item .input-group-btn .btn:hover{
+    color: #775d25;
+    transition: all 0.2s linear;
+}
+
+.footer__item .col-social-icons{
+    
+    text-align: center;
+}
+
+.footer__item .col-social-icons a{
+  color: chartreuse;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid chartreuse;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.footer__item .col-social-icons a:hover{
+    color: #c2ce24;
+}
+
+.footer__item p a{
+    margin: 0 0 14px 0;
+}
+
+.footer__item p .btn1{
+    background: darkgoldenrod;
+    padding: 8px 12px;
+    color: #ffffff;
+}
+
+.footer__item p .btn1:hover{
+    color: #775d25;
+}
+
+#copyright{
+    color: #c2ce24;
+    background: darkgreen;
+    padding: 20px 0;
+    border-top: 1px solid #1D1D1D;
+}
+
+#copyright .text-center{
+    font-size: 16px;
+    text-align: center;
+}
+
+#copyright a{
+    color: #666666;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+form.form1 {
+    background-color: white;
+    width: 19%;
+    margin-left: 865px;
+    height: 26px;
+    margin-top: -6px;
+    padding-top: 6px;
+    border-radius: 4px;
+}
+
+.timkiembutton{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
